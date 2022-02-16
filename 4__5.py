@@ -6,4 +6,3 @@ def multiply(arg1,arg2):
     return (arg1 * arg2)
 print (f'Результат: {reduce(multiply, [el for el in range(100, 1001) if (el%2 == 0)])}')
 
-
